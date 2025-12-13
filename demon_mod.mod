@@ -1,5 +1,5 @@
 name="Demon Species Mod"
-path="."
+path="mod/demon_mod"
 tags={
 	"Species"
 }
