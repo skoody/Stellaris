@@ -1,7 +1,12 @@
-pc_molten = {
-	icon = "GFX_planet_class_molten"
-	large_icon = "GFX_planet_class_molten_large"
-	entity = "molten_planet_01_entity"
+# This file makes Molten worlds colonizable only for species with the hellworlder trait.
 
-	colonizable = yes
+pc_molten = {
+    # Instead of a simple "yes", we provide a condition block.
+    # This avoids the need to define icons and entities which we don't have.
+    colonizable = {
+        always = no # It's not colonizable by default
+
+        # Condition: The main species of the empire trying to colonize must have the hellworlder trait.
+        owner_main_species.has_trait = trait_demon_hellworlder
+    }
 }

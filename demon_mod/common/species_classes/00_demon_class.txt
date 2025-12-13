@@ -1,7 +1,2 @@
 DEMON = {
-	graphical_culture = "humanoid_01"
-
-	portraits = {
-		"human"
-	}
 }

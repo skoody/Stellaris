@@ -1,26 +1,29 @@
-auth_satanic = {
-	icon = "GFX_authority_imperial"
+authorities = {
+	auth_satanic = {
+		succession = imperial # Ruler rules for life
+		election = no
 
-	ruler_term = {
-		years = -1
-		election_on_death = no
+		ruler_title = "High Priest"
+		ruler_title_female = "High Priestess"
+
+		prerequisites = {
+			OR = {
+				has_ethic = "ethic_satan"
+				has_ethic = "ethic_fanatic_satan"
+			}
+		}
+
+		# These are mostly for flavor and AI weighting, not hard requirements
+		ai_weights = {
+			weight = 10
+			modifier = {
+				factor = 1.5
+				has_ethic = "ethic_satan"
+			}
+			modifier = {
+				factor = 2.0
+				has_ethic = "ethic_fanatic_satan"
+			}
+		}
 	}
-
-	ruler_title = "High Priest"
-	ruler_title_female = "High Priestess"
-
-	leader_classes = {
-		ruler = scientist
-		admiral = admiral
-		general = general
-		governor = governor
-	}
-
-	valid_for_new_empires = yes
-
-	can_form_federations = yes
-	can_be_in_federations = yes
-	can_be_hegemon = yes
-	can_join_galactic_community = yes
-	can_be_galactic_emperor = yes
 }

@@ -1,0 +1,25 @@
+spriteTypes = {
+
+	### Demon Ethics
+	spriteType = {
+		name = "GFX_ethic_satan"
+		texturefile = "gfx/interface/icons/ethics/ethic_fanatic_militarist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ethic_fanatic_satan"
+		texturefile = "gfx/interface/icons/ethics/ethic_fanatic_militarist.dds"
+	}
+
+	### Demon Authority
+	spriteType = {
+		name = "GFX_auth_satanic"
+		texturefile = "gfx/interface/icons/authorities/auth_imperial.dds"
+	}
+
+	### Demon Civic
+	spriteType = {
+		name = "GFX_civic_satanism"
+		texturefile = "gfx/interface/icons/civics/civic_fanatic_purifiers.dds"
+	}
+}
