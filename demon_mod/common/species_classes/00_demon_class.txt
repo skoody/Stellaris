@@ -1,4 +1,6 @@
 DEMON = {
+	graphical_culture = "machine_01"
+
 	portraits = {
 		"human" # Placeholder, we'll use existing human portraits for now
 	}

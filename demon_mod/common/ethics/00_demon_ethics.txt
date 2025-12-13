@@ -1,29 +1,29 @@
 # Demon Ethics
 ethic_satan = {
-	icon = "gfx/interface/icons/ethics/ethic_spiritualist.dds" # Placeholder
+	cost = 1
+	ethic_category = satan_category
 
-	country_modifier = {
-		country_influence_mult = 0.15
+	icon = "GFX_ethic_spiritualist" # Placeholder using vanilla GFX key
+
+	modifier = {
+		country_influence_produces_mult = 0.15
 		ship_weapon_damage = 0.05
 		ship_shield_penetration_mult = 0.10
-	}
-
-	planet_modifier = {
 		planet_amenities_usage_mult = 0.10
 		planet_stability_add = 100
 	}
 }
 
 ethic_fanatic_satan = {
-	icon = "gfx/interface/icons/ethics/ethic_fanatic_spiritualist.dds" # Placeholder
+	cost = 1
+	ethic_category = satan_category
 
-	country_modifier = {
-		country_influence_mult = 0.25
+	icon = "GFX_ethic_fanatic_spiritualist" # Placeholder using vanilla GFX key
+
+	modifier = {
+		country_influence_produces_mult = 0.25
 		ship_weapon_damage = 0.10
 		ship_shield_penetration_mult = 0.20
-	}
-
-	planet_modifier = {
 		planet_amenities_usage_mult = 0.15
 		planet_stability_add = 100
 	}

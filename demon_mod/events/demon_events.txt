@@ -1,45 +1,18 @@
 namespace = demon
 
-country_event = {
-	id = demon.1
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		has_country_flag = demon_species_country
-	}
-
-	immediate = {
-		set_graphical_culture = "machine_01"
-	}
-}
-
-country_event = {
-	id = demon.2
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		original_species = {
-			has_trait = "trait_demon_eternal"
-		}
-	}
-
-	immediate = {
-		set_country_flag = demon_species_country
-	}
-}
-
 # Event to grant influence when a pop is purged
 country_event = {
 	id = demon.3
 	hide_window = yes
 	is_triggered_only = yes
 
+	trigger = {
+		has_civic = "civic_satanism"
+	}
+
 	immediate = {
 		add_resource = {
-			resource = influence
-			amount = 0.5
+			influence = 0.5
 		}
 	}
 }

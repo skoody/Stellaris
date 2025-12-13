@@ -1,15 +1,10 @@
 on_game_start_country = {
 	events = {
-		demon.2
-		demon.1
 	}
 }
 
 on_pop_purged = {
 	events = {
 		demon.3
-	}
-	potential = {
-		has_civic = "civic_satanism"
 	}
 }

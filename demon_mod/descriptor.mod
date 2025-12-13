@@ -1,6 +1,6 @@
 name="Demon Species Mod"
-path="demon_mod"
 tags={
 	"Species"
 }
 supported_version="3.12.*"
+remote_file_id="0" # Placeholder

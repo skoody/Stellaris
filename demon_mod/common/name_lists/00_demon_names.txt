@@ -1,7 +1,19 @@
 demon_names = {
 	character_names = {
-		names = {
-			Aamon Abaddon Abigor Adrammelech Agares Agiel Ahriman Aka_Manah Akuma Alastor Asmodeus Astaroth Azazel Bael Balaam Beelzebub Belphegor Bifrons Caim Choronzon Dagon Eligos Flauros Forneus Furfur Gaap Glasya_Labolas Gusion Haborym Ipos Leviathan Lilith Lucifer Malphas Mammon Marbas Mephistopheles Moloch Murmur Orias Orobas Paimon Phenex Ronove Samael Shax Valac Vepar Vine Zagan
+		male_names = {
+			names = {
+				"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"
+			}
+		}
+		female_names = {
+			names = {
+				"Lilith" "Abyzou" "Agrat bat Mahlat" "Hecate" "Ala" "Aka Manah"
+			}
+		}
+		second_names = {
+			names = {
+				"the Deceiver" "the Tormentor" "the Fallen" "of the Abyss" "the Damned"
+			}
 		}
 	}
 	ship_names = {
@@ -16,7 +28,9 @@ demon_names = {
 	}
 	planet_names = {
 		generic = {
-			"Acheron" "Asphodel" "Cocytus" "Dis" "Erebus" "Gehenna" "Hades" "Hel" "Inferno" "Lethe" "Malebolge" "Naraka" "Phlegethon" "Sheol" "Styx" "Tartarus" "Tophet"
+			names = {
+				"Acheron" "Asphodel" "Cocytus" "Dis" "Erebus" "Gehenna" "Hades" "Hel" "Inferno" "Lethe" "Malebolge" "Naraka" "Phlegethon" "Sheol" "Styx" "Tartarus" "Tophet"
+			}
 		}
 	}
 }

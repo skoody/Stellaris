@@ -1,16 +1,13 @@
 auth_satanic = {
-	prerequisites = { }
-	ruler_title = "High Priest"
-	ruler_title_female = "High Priestess"
+	icon = "GFX_authority_imperial" # Placeholder
 
 	election_type = none
 	ruler_term_years = -1 # Ruler for life
 
-	valid_for_new_empires = yes
+	ruler_title = "High Priest"
+	ruler_title_female = "High Priestess"
 
-	portraits = {
-		"human" # Placeholder
-	}
+	valid_for_new_empires = yes
 
 	can_form_federations = yes
 	can_be_in_federations = yes
