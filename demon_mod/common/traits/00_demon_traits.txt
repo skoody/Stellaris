@@ -1,25 +1,20 @@
-# Demon Traits
 trait_demon_eternal = {
 	cost = 4
-	icon = "gfx/interface/icons/traits/trait_venerable"
+	icon = "gfx/interface/icons/traits/trait_venerable.dds"
 
 	modifier = {
-		leader_lifespan_add = 1000 # Effectively immortal for now
+		leader_age_death_chance_mult = -1
 	}
 }
 
 trait_demon_social_outcast = {
-	cost = -2
-	icon = "gfx/interface/icons/traits/trait_repugnant"
-
-	modifier = {
-		opinion_from_others = -50
-	}
+	cost = -1
+	icon = "gfx/interface/icons/traits/trait_repugnant.dds"
 }
 
 trait_demon_hellworlder = {
 	cost = 0
-	icon = "gfx/interface/icons/traits/trait_pc_tomb_preference" # placeholder
+	icon = "gfx/interface/icons/traits/trait_pc_tomb_preference.dds"
 
 	modifier = {
 		pc_volcanic_habitability = 1.0

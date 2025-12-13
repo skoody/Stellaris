@@ -1,9 +1,11 @@
-l_german:
+﻿l_german:
  ethic_satan: "Satan"
  ethic_satan_desc: "Diese Gesellschaft glaubt, dass Macht und Eigennutz die ultimativen Tugenden sind, und setzt auf Ehrgeiz und Herrschaft, um ihre Ziele zu erreichen."
  ethic_fanatic_satan: "Fanatischer Satan"
  ethic_fanatic_satan_desc: "Für diese Gesellschaft ist das Streben nach absoluter Macht die einzige Wahrheit. Alle Handlungen sind im Namen von Stärke und persönlichem Gewinn gerechtfertigt, und die Schwachen sind dazu bestimmt, den Starken zu dienen."
  satan_category: "Prinzipien der Macht"
+ mod_pc_molten_habitability: "Bewohnbarkeit für geschmolzene Welten"
+ demon_species_opinion: "Dämonische Spezies"
 
  # Tooltip Descriptions from user request
  desc_ethic_satan:0 "§E$ethic_satan$§! Ethik-Effekte:\n£influence£ Einfluss: §G+15%§!\n£amenities£ Annehmlichkeiten-Verbrauch durch Pops: §R+10%§!\n£damage£ Schiffswaffenschaden: §G+5%§!\n£shield_penetration£ Schilddurchdringung: §G+10%§!\n£stability£ Planetenstabilität: §G+100§!."

@@ -1,7 +1,9 @@
 gov_satanism = {
-	type = default
 	authority = "auth_satanic"
-	civics = { "civic_satanism" }
 
-	icon = "GFX_government_type_imperial" # Placeholder
+	civics = {
+		"civic_satanism"
+	}
+
+	icon = "GFX_government_type_imperial"
 }

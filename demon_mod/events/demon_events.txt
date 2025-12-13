@@ -16,3 +16,28 @@ country_event = {
 		}
 	}
 }
+
+# Event to apply opinion malus
+country_event = {
+	id = demon.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		founder_species = {
+			has_trait = "trait_demon_social_outcast"
+		}
+	}
+
+	immediate = {
+		every_other_country = {
+			limit = {
+				is_ai = yes
+			}
+			add_opinion_modifier = {
+				who = ROOT
+				modifier = "demon_species_opinion"
+			}
+		}
+	}
+}

@@ -4,6 +4,8 @@ l_english:
  ethic_fanatic_satan: "Fanatic Satan"
  ethic_fanatic_satan_desc: "For this society, the pursuit of absolute power is the only truth. All actions are justified in the name of strength and personal gain, and the weak are destined to serve the strong."
  satan_category: "Principles of Power"
+ mod_pc_molten_habitability: "Molten World Habitability"
+ demon_species_opinion: "Demonic Species"
 
  # Tooltip Descriptions from user request
  desc_ethic_satan:0 "§E$ethic_satan$§! Ethic Effects:\n£influence£ Influence: §G+15%§!\n£amenities£ Amenities Usage from Pops: §R+10%§!\n£damage£ Ship Weapon Damage: §G+5%§!\n£shield_penetration£ Shield Penetration: §G+10%§!\n£stability£ Planet Stability: §G+100§!."

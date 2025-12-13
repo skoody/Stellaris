@@ -1,3 +1,8 @@
 pc_molten = {
+	icon = "GFX_planet_class_molten"
+	large_icon = "GFX_planet_class_molten_large"
+	entity = "molten_planet"
+	climate = "molten"
+
 	colonizable = yes
 }

@@ -7,7 +7,7 @@ demon_empire = {
 
 	spawn_enabled = yes
 
-	ship_prefix = "ISS"
+	ship_prefix = "Infernal"
 
 	species = {
 		name = "Demons"
@@ -24,11 +24,12 @@ demon_empire = {
 
 	room = "personality_slaving_despots_room"
 
+	ship_graphical_culture = "MACHINE_01"
+
 	authority = "auth_satanic"
 	government = "gov_satanism"
 	civics = {
 		"civic_satanism"
-		"civic_fanatic_purifiers"
 	}
 	ethos = {
 		"ethic_fanatic_satan"

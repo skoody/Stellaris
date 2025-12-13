@@ -3,4 +3,4 @@ path="demon_mod"
 tags={
 	"Species"
 }
-supported_version="3.12.*"
+supported_version="4.2.*"

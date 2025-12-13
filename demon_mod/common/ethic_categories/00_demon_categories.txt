@@ -1,2 +1,0 @@
-satan_category = {
-}

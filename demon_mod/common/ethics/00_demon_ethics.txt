@@ -1,9 +1,8 @@
-# Demon Ethics
 ethic_satan = {
 	cost = 1
-	ethic_category = satan_category
+	ethic_category = "satan_category"
 
-	icon = "GFX_ethic_spiritualist" # Placeholder using vanilla GFX key
+	icon = "GFX_ethic_spiritualist"
 
 	modifier = {
 		country_influence_produces_mult = 0.15
@@ -15,10 +14,10 @@ ethic_satan = {
 }
 
 ethic_fanatic_satan = {
-	cost = 1
-	ethic_category = satan_category
+	cost = 2
+	ethic_category = "satan_category"
 
-	icon = "GFX_ethic_fanatic_spiritualist" # Placeholder using vanilla GFX key
+	icon = "GFX_ethic_fanatic_spiritualist"
 
 	modifier = {
 		country_influence_produces_mult = 0.25

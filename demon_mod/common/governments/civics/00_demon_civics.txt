@@ -1,11 +1,13 @@
 civic_satanism = {
+	icon = "GFX_civic_fanatic_purifiers"
+
 	possible = {
-		authority = { value = auth_satanic }
+		authority = {
+			value = "auth_satanic"
+		}
 	}
 
-	icon = "GFX_civic_fanatic_purifiers" # Placeholder
-
 	modifier = {
-		worker_produces_mult = 0.10
+		mod_planet_jobs_worker_produces_mult = 0.10
 	}
 }
