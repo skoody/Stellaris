@@ -1,0 +1,33 @@
+# Demon Traits
+trait_demon_eternal = {
+	cost = 4
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_venerable"
+
+	modifier = {
+		leader_lifespan_add = 1000 # Effectively immortal for now
+	}
+}
+
+trait_demon_social_outcast = {
+	cost = -2
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_repugnant"
+
+	modifier = {
+		opinion_from_other_species = -50
+	}
+}
+
+trait_demon_hellworlder = {
+	cost = 0
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_pc_tomb_preference" # placeholder
+
+	planet_modifier = {
+		pc_volcanic_habitability = 1.0
+		pc_molten_habitability = 1.0
+	}
+
+	colonize_molten_worlds = yes
+}

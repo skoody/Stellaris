@@ -1,0 +1,20 @@
+auth_satanic = {
+	prerequisites = { }
+	ruler_title = "High Priest"
+	ruler_title_female = "High Priestess"
+
+	election_type = none
+	ruler_term_years = -1 # Ruler for life
+
+	valid_for_new_empires = yes
+
+	portraits = {
+		"human" # Placeholder
+	}
+
+	can_form_federations = yes
+	can_be_in_federations = yes
+	can_be_hegemon = yes
+	can_join_galactic_community = yes
+	can_be_galactic_emperor = yes
+}

@@ -1,0 +1,9 @@
+civic_satanism = {
+	possible = {
+		authority = { "auth_satanic" }
+	}
+
+	modifier = {
+		worker_produces_mult = 0.10
+	}
+}

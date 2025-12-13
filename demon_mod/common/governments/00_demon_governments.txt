@@ -1,0 +1,4 @@
+gov_satanism = {
+	authority = "auth_satanic"
+	civics = { "civic_satanism" }
+}

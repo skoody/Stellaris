@@ -1,0 +1,5 @@
+DEMON = {
+	portraits = {
+		"human" # Placeholder, we'll use existing human portraits for now
+	}
+}

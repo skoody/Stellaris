@@ -1,0 +1,6 @@
+l_english:
+ auth_satanic: "Satanic"
+ auth_satanic_desc: "This government is ruled by a single individual who holds absolute power for life."
+ civic_satanism: "Satanism"
+ civic_satanism_desc: "This society is organized around the principles of power and self-interest."
+ civic_satanism_effects: "§E$civic_satanism$§! Civic Effects:\n£influence£ Influence from Purging Pops: §G+0.5§!\n£worker£ Worker Pop Resource Output: §G+10%§!"

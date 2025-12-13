@@ -1,0 +1,9 @@
+l_english:
+ ethic_satan: "Satan"
+ ethic_satan_desc: "This society believes that power and self-interest are the ultimate virtues, embracing ambition and domination to achieve their goals."
+ ethic_fanatic_satan: "Fanatic Satan"
+ ethic_fanatic_satan_desc: "For this society, the pursuit of absolute power is the only truth. All actions are justified in the name of strength and personal gain, and the weak are destined to serve the strong."
+
+ # Tooltip Descriptions from user request
+ desc_ethic_satan:0 "§E$ethic_satan$§! Ethic Effects:\n£influence£ Influence: §G+15%§!\n£amenities£ Amenities Usage from Pops: §R+10%§!\n£damage£ Ship Weapon Damage: §G+5%§!\n£shield_penetration£ Shield Penetration: §G+10%§!\n£stability£ Planet Stability: §G+100§!."
+ desc_ethic_fanatic_satan:0 "§E$ethic_fanatic_satan$§! Ethic Effects:\n£influence£ Influence: §G+25%§!\n£amenities£ Amenities Usage from Pops: §R+15%§!\n£damage£ Ship Weapon Damage: §G+10%§!\n£shield_penetration£ Shield Penetration: §G+20%§!\n£stability£ Planet Stability: §G+100§!."
