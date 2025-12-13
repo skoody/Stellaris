@@ -1,4 +1,6 @@
-﻿demon_names = {
+demon_names = {
+	sequential_name = "Demon %O%"
+
 	character_names = {
 		male_names = {
 			"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"

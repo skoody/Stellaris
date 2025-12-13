@@ -8,6 +8,6 @@ civic_satanism = {
 	}
 
 	modifier = {
-		mod_planet_jobs_worker_produces_mult = 0.10
+		planet_jobs_worker_produces_mult = 0.10
 	}
 }

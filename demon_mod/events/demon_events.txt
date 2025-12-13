@@ -17,7 +17,7 @@ country_event = {
 	}
 }
 
-# Event to apply opinion malus
+# Event to apply opinion malus at game start
 country_event = {
 	id = demon.4
 	hide_window = yes
@@ -30,9 +30,9 @@ country_event = {
 	}
 
 	immediate = {
-		every_other_country = {
+		every_country = {
 			limit = {
-				is_ai = yes
+				NOT = { this = ROOT }
 			}
 			add_opinion_modifier = {
 				who = ROOT

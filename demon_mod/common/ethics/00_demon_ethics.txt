@@ -1,6 +1,7 @@
 ethic_satan = {
 	cost = 1
-	ethic_category = "satan_category"
+
+	ethic_category = satan_category
 
 	icon = "GFX_ethic_spiritualist"
 
@@ -15,7 +16,8 @@ ethic_satan = {
 
 ethic_fanatic_satan = {
 	cost = 2
-	ethic_category = "satan_category"
+
+	ethic_category = satan_category
 
 	icon = "GFX_ethic_fanatic_spiritualist"
 

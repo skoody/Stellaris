@@ -17,7 +17,7 @@ trait_demon_hellworlder = {
 	icon = "gfx/interface/icons/traits/trait_pc_tomb_preference.dds"
 
 	modifier = {
-		pc_volcanic_habitability = 1.0
-		pc_molten_habitability = 1.0
+		planet_habitability_pc_volcanic_add = 1.0
+		planet_habitability_pc_molten_add = 1.0
 	}
 }
