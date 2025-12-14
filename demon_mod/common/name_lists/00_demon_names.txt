@@ -1,6 +1,4 @@
-NAME_LIST_demon_names = {
-	sequential_name = "Demon %O%"
-
+﻿NAME_LIST_demon_names = {
 	ship_names = {
 		generic = {
 			names = {
@@ -11,14 +9,12 @@ NAME_LIST_demon_names = {
 
 	fleet_names = {
 		random_names = {
-			names = {
-				"1st Circle" "2nd Circle" "3rd Circle" "4th Circle" "5th Circle" "6th Circle" "7th Circle" "8th Circle" "9th Circle"
-			}
+			"1st Circle" "2nd Circle" "3rd Circle" "4th Circle" "5th Circle" "6th Circle" "7th Circle" "8th Circle" "9th Circle"
 		}
 	}
 
 	planet_names = {
-		generic = {
+		default = {
 			names = {
 				"Acheron" "Asphodel" "Cocytus" "Dis" "Erebus" "Gehenna" "Hades" "Hel" "Inferno" "Lethe" "Malebolge" "Naraka" "Phlegethon" "Sheol" "Styx" "Tartarus" "Tophet"
 			}
@@ -26,21 +22,19 @@ NAME_LIST_demon_names = {
 	}
 
 	character_names = {
-		default = {
-			first_names_male = {
-				names = {
-					"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"
-				}
+		first_names_male = {
+			names = {
+				"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"
 			}
-			first_names_female = {
-				names = {
-					"Lilith" "Abyzou" "Agrat bat Mahlat" "Hecate" "Ala" "Aka Manah"
-				}
+		}
+		first_names_female = {
+			names = {
+				"Lilith" "Abyzou" "Agrat bat Mahlat" "Hecate" "Ala" "Aka Manah"
 			}
-			second_names = {
-				names = {
-					"the Deceiver" "the Tormentor" "the Fallen" "of the Abyss" "the Damned"
-				}
+		}
+		second_names = {
+			names = {
+				"the Deceiver" "the Tormentor" "the Fallen" "of the Abyss" "the Damned"
 			}
 		}
 	}

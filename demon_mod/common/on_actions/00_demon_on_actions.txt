@@ -1,11 +1,11 @@
 on_game_start_country = {
 	events = {
-		demon.4
+		demon.2
 	}
 }
 
 on_pop_purged = {
 	events = {
-		demon.3
+		demon.1
 	}
 }

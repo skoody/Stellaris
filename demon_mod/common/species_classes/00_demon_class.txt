@@ -1,2 +1,3 @@
 DEMON = {
+	graphical_culture = "machine_01"
 }

@@ -1,19 +1,5 @@
 namespace = demon
 
-# On-action to fire events at game start
-on_actions = {
-	on_game_start_country = {
-		events = {
-			demon.2
-		}
-	}
-    on_pop_purged = {
-        events = {
-            demon.1
-        }
-    }
-}
-
 # Event to grant influence when a pop is purged
 country_event = {
 	id = demon.1
@@ -33,11 +19,7 @@ country_event = {
 country_event = {
 	id = demon.2
 	hide_window = yes
-
-	trigger = {
-		is_ai = no # Only fire for player empires to avoid spamming opinion modifiers between AI
-		owner_main_species.has_trait = "trait_demon_social_outcast"
-	}
+    is_triggered_only = yes # Should be triggered by an on_action
 
 	immediate = {
 		every_country = {
