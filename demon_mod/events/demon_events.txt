@@ -7,11 +7,10 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-        # Check if the country has the civic, and if so, grant influence
-        if = {
-            limit = { has_civic = "civic_satanism" }
-            add_resource = { influence = 0.5 }
-        }
+		if = {
+			limit = { has_civic = "civic_satanism" }
+			add_resource = { influence = 0.5 }
+		}
 	}
 }
 
@@ -19,7 +18,11 @@ country_event = {
 country_event = {
 	id = demon.2
 	hide_window = yes
-    is_triggered_only = yes # Should be triggered by an on_action
+	is_triggered_only = yes
+
+	trigger = {
+		main_species = { has_trait = "trait_demon_social_outcast" }
+	}
 
 	immediate = {
 		every_country = {

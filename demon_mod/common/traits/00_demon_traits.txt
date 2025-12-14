@@ -7,14 +7,11 @@ trait_demon_eternal = {
 trait_demon_social_outcast = {
 	cost = -1
 	icon = "gfx/interface/icons/traits/trait_repugnant.dds"
-	# Effect is handled by opinion modifiers, so no modifier is needed here.
 }
 
 trait_demon_hellworlder = {
-	cost = 0 # This is a starting world preference trait, so it should be free
+	cost = 0
 	icon = "gfx/interface/icons/planet_types/pc_volcanic.dds"
-
-	# This makes Volcanic the ideal world.
 	ideal_planet_class = "pc_volcanic"
 
 	modifier = {

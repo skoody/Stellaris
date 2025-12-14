@@ -1,8 +1,5 @@
 auth_satanic = {
-	succession = imperial # Ruler rules for life
-	election = no
-
-	icon = "gfx/interface/icons/authorities/auth_imperial.dds"
+	icon = "GFX_auth_satanic"
 
 	ruler_title = "High Priest"
 	ruler_title_female = "High Priestess"
@@ -14,18 +11,5 @@ auth_satanic = {
 	potential = {
 		is_gestalt = no
 		has_ethic = ethic_satan
-	}
-
-	# These are mostly for flavor and AI weighting, not hard requirements
-	ai_weights = {
-		weight = 10
-		modifier = {
-			factor = 1.5
-			has_ethic = "ethic_satan"
-		}
-		modifier = {
-			factor = 2.0
-			has_ethic = "ethic_fanatic_satan"
-		}
 	}
 }

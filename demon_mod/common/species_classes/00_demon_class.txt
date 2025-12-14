@@ -1,3 +1,6 @@
 DEMON = {
+	portraits = {
+		demon_portraits
+	}
 	graphical_culture = "machine_01"
 }

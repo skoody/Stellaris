@@ -1,15 +1,12 @@
 gov_satanism = {
 	authority = "auth_satanic"
-	icon = "gfx/interface/icons/governments/gov_imperial.dds"
+	icon = "gfx/interface/icons/governments/gov_imperial.dds" # Placeholder Icon
 
 	potential = {
 		is_gestalt = no
-		is_sapient = yes
-		is_primitive = no
 	}
 
 	requirements = {
-		# This government is specifically for the Satanic authority
 		has_authority = auth_satanic
 	}
 }

@@ -3,7 +3,7 @@ ethic_satan = {
 	category = "satan_category"
 	fanatic_version = ethic_fanatic_satan
 
-	icon = "gfx/interface/icons/ethics/ethic_militarist.dds"
+	icon = "GFX_ethic_satan"
 
 	opposites = {
 		"ethic_spiritualist"
@@ -24,7 +24,7 @@ ethic_fanatic_satan = {
 	is_fanatic = yes
 	category = "satan_category"
 
-	icon = "gfx/interface/icons/ethics/ethic_fanatic_militarist.dds"
+	icon = "GFX_ethic_fanatic_satan"
 
 	opposites = {
 		"ethic_spiritualist"

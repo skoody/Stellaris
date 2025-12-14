@@ -1,10 +1,8 @@
 civic_satanism = {
-	icon = "GFX_civic_fanatic_purifiers"
+	icon = "GFX_civic_satanism"
 
-	possible = {
-		authority = {
-			value = "auth_satanic"
-		}
+	potential = {
+		has_authority = auth_satanic
 	}
 
 	modifier = {

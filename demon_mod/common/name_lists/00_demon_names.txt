@@ -8,6 +8,7 @@
 	}
 
 	fleet_names = {
+		sequential_name = "Demon %O%"
 		random_names = {
 			"1st Circle" "2nd Circle" "3rd Circle" "4th Circle" "5th Circle" "6th Circle" "7th Circle" "8th Circle" "9th Circle"
 		}
