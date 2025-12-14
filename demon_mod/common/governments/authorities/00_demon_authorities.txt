@@ -1,29 +1,30 @@
-authorities = {
-	auth_satanic = {
-		succession = imperial # Ruler rules for life
-		election = no
+# Custom Government Authority for the Demon Mod
 
-		ruler_title = "High Priest"
-		ruler_title_female = "High Priestess"
+auth_satanic = {
+	icon = "gfx/interface/icons/authorities/auth_imperial.dds" # Placeholder Icon
 
-		prerequisites = {
-			OR = {
-				has_ethic = "ethic_satan"
-				has_ethic = "ethic_fanatic_satan"
-			}
+	ruler_title = "High Priest"
+	ruler_title_female = "High Priestess"
+
+	# Rule for life, no elections
+	succession = imperial
+
+	# Can't use this authority if you are egalitarian
+	possible = {
+		NOT = { has_ethic = ethic_egalitarian }
+		NOT = { has_ethic = ethic_fanatic_egalitarian }
+	}
+
+	# AI will prefer this authority if they have the Satanic ethic
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2.0
+			has_ethic = "ethic_satan"
 		}
-
-		# These are mostly for flavor and AI weighting, not hard requirements
-		ai_weights = {
-			weight = 10
-			modifier = {
-				factor = 1.5
-				has_ethic = "ethic_satan"
-			}
-			modifier = {
-				factor = 2.0
-				has_ethic = "ethic_fanatic_satan"
-			}
+		modifier = {
+			factor = 3.0
+			has_ethic = "ethic_fanatic_satan"
 		}
 	}
 }

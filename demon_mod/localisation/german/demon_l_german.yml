@@ -1,0 +1,9 @@
+l_german:
+ origin_molten_demons:0 "Geschmolzene Welt"
+ origin_molten_demons_desc:0 "Diese Spezies hat sich auf einer glühenden, geschmolzenen Welt entwickelt und ist an extreme Hitze und vulkanische Aktivität angepasst. Sie kann nur auf anderen geschmolzenen Welten überleben."
+ civic_satanism:0 "Satanismus"
+ civic_satanism_desc:0 "Diese Gesellschaft ist nach den Prinzipien von Macht und Eigennutz organisiert."
+ auth_satanic:0 "Satanische Herrschaft"
+ auth_satanic_desc:0 "Eine Regierungsform, die von einem Hohepriester oder einer Hohepriesterin geführt wird und auf den Lehren des Satanismus basiert."
+ ethic_satan:0 "Satanisch"
+ ethic_fanatic_satan:0 "Fanatisch Satanisch"

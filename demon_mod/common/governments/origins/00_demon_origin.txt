@@ -1,0 +1,40 @@
+# This is the custom origin for the Demon species
+
+origin_molten_demons = {
+	icon = "gfx/interface/icons/origins/origin_shattered_ring.dds" # Placeholder Icon
+	picture = "GFX_origin_shattered_ring" # Placeholder Picture
+
+	potential = {
+		is_gestalt = no
+	}
+
+	possible = {
+		always = yes
+	}
+
+	modifiers = {
+		# This is a hidden modifier that will apply the colonization restriction
+		species_modifier = {
+			planet_preference = pc_molten
+			pc_molten_habitability = 1.0
+			pc_wet_habitability = 0.0
+			pc_dry_habitability = 0.0
+			pc_frozen_habitability = 0.0
+			pc_gaia_habitability = 0.0
+			pc_relic_habitability = 0.0
+			pc_machine_habitability = 0.0
+			pc_hive_habitability = 0.0
+			pc_ringworld_habitability = 0.0
+			pc_habitat_habitability = 0.0
+		}
+	}
+
+	# This forces the starting planet to be a molten world
+	initializers = {
+		"molten_world_start"
+	}
+
+	colonizable_planet_types = {
+		pc_molten
+	}
+}

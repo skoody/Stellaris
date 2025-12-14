@@ -1,50 +1,46 @@
-ethics = {
-    ethic_satan = {
-        cost = 1
+# Custom Ethics for the Demon Mod - Corrected with proper modifiers
 
-        category = "satan_category"
+ethic_satan = {
+	icon = "gfx/interface/icons/ethics/ethic_militarist.dds" # Placeholder icon
 
-        opposites = {
-            "ethic_spiritualist"
-            "ethic_egalitarian"
-        }
+	cost = 1
 
-        modifier = {
-            country_influence_produces_mult = 0.15
-            ship_weapon_damage = 0.05
-            ship_shield_penetration_mult = 0.10
-            planet_amenities_usage_mult = 0.10
-            planet_stability_add = 5
-        }
-    }
+	country_modifier = {
+		country_influence_produces_mult = 0.07
+		planet_stability_add = 5
+		pop_purge_influence_gain_mult = 0.25
+	}
 
-    ethic_fanatic_satan = {
-        cost = 2
-
-        category = "satan_category"
-
-        opposites = {
-            "ethic_spiritualist"
-            "ethic_egalitarian"
-            "ethic_fanatic_spiritualist"
-            "ethic_fanatic_egalitarian"
-        }
-
-        modifier = {
-            country_influence_produces_mult = 0.25
-            ship_weapon_damage = 0.10
-            ship_shield_penetration_mult = 0.20
-            planet_amenities_usage_mult = 0.15
-            planet_stability_add = 10
-        }
-    }
+	opposites = {
+		"ethic_pacifist"
+	}
 }
 
-ethic_categories = {
+ethic_fanatic_satan = {
+	icon = "gfx/interface/icons/ethics/ethic_fanatic_militarist.dds" # Placeholder icon
+
+	cost = 2
+
+	country_modifier = {
+		country_influence_produces_mult = 0.15
+		planet_stability_add = 10 # 100 is an extremely high value, using a more balanced 10
+		pop_purge_influence_gain_mult = 0.5
+	}
+
+	# Links the fanatic ethic to the base one
+	ethic_power = ethic_satan
+
+	opposites = {
+		"ethic_pacifist"
+		"ethic_fanatic_pacifist"
+	}
+}
+
+# Defines the ethic category for the UI
+ethic_groups = {
 	satan_category = {
-		opposites = {
-			"spiritualist_category"
-            "egalitarian_category"
-		}
+		ethic = "ethic_satan"
+		ethic = "ethic_fanatic_satan"
+		opposites = "pacifist_category"
 	}
 }

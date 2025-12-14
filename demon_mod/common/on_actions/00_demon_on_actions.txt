@@ -1,11 +1,7 @@
+# On Action to apply the demon social debuff at game start
+
 on_game_start_country = {
 	events = {
-		demon.4
-	}
-}
-
-on_pop_purged = {
-	events = {
-		demon.3
+		demon.1
 	}
 }

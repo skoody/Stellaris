@@ -1,29 +1,21 @@
+# Demon Species Traits - Corrected with proper modifiers
+
 trait_demon_eternal = {
 	cost = 4
-	icon = "gfx/interface/icons/traits/trait_venerable.dds"
+	icon = "gfx/interface/icons/traits/trait_venerable.dds" # Placeholder Icon
 
 	modifier = {
-		# Adds a huge lifespan bonus, effectively making them immortal for gameplay purposes
-		mod_leader_lifespan_add = 1000
+		# This is the correct modifier for true immortality
+		leader_age_death_chance_mult = -1
+	}
+
+	ai_weight = {
+		weight = 0 # Prevent AI from randomly choosing this powerful trait
 	}
 }
 
 trait_demon_social_outcast = {
 	cost = -1
-	icon = "gfx/interface/icons/traits/trait_repugnant.dds"
-	# Effect is handled by an event, so no modifier is needed here.
-}
-
-trait_demon_hellworlder = {
-	cost = 0 # This is a starting world preference trait, so it should be free
-	icon = "gfx/interface/icons/planet_types/pc_volcanic.dds"
-
-	# This makes Volcanic the ideal and starting world.
-	initial_planet_class = "pc_volcanic"
-
-	# This trait also acts as a key for the planet class overwrite,
-	# allowing colonization of molten worlds.
-	modifier = {
-		species_trait_points_add = 0 # No direct modifier needed
-	}
+	icon = "gfx/interface/icons/traits/trait_repugnant.dds" # Placeholder Icon
+	# This is a marker trait for events, no modifier needed.
 }

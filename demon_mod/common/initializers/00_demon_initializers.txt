@@ -1,0 +1,13 @@
+# Custom initializer for the Molten Demons Origin
+
+molten_world_start = {
+	# This uses the default starting system but overrides the home planet class
+	inherit_triggers = { "default_starting_system_initializers" }
+
+	init_effect = {
+		# Set the home planet to be a molten world
+		solar_system = {
+			change_pc = pc_molten
+		}
+	}
+}

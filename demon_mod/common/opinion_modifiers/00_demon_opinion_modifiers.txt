@@ -1,3 +1,5 @@
+# Opinion modifier for the Demon species
+
 demon_species_opinion = {
 	opinion = -50
 }

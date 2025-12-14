@@ -1,12 +1,18 @@
-civic_satanism = {
-	icon = "GFX_civic_fanatic_purifiers"
+# Custom Civic for the Demon Mod - Corrected with proper modifiers
 
-	possible = {
+civic_satanism = {
+	icon = "gfx/interface/icons/civics/civic_fanatic_purifiers.dds" # Placeholder Icon
+
+	description = "civic_satanism_desc" # Link to localization
+
+	# This civic requires the Satanic authority
+	potential = {
 		authority = {
-			value = "auth_satanic"
+			value = auth_satanic
 		}
 	}
 
+	# Corrected modifier to match user's screenshot
 	modifier = {
 		planet_jobs_worker_produces_mult = 0.10
 	}

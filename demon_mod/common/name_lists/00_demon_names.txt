@@ -1,23 +1,23 @@
-NAME_LIST_demon_names = {
+# This file must be saved with UTF-8-BOM encoding.
+
+demon_names = {
+	# This sets the default naming convention, e.g., "Demon 1st"
 	sequential_name = "Demon %O%"
 
 	ship_names = {
+		# Generic ship names for all classes
 		generic = {
-			names = {
-				"Abomination" "Accuser" "Affliction" "Agony" "Anguish" "Annihilator" "Apocalypse" "Armageddon" "Bane" "Blight" "Cataclysm" "Chaos" "Corruption" "Damnation" "Darkness" "Death" "Deceiver" "Defiler" "Desecrator" "Despair" "Despoiler" "Destroyer" "Devourer" "Doom" "Dread" "Eclipse" "End" "Enigma" "Eradicator" "Eternal" "Fallen" "Fear" "Fiend" "Fire" "Fury" "Gloom" "Grief" "Hate" "Havoc" "Hell" "Horror" "Inferno" "Judgement" "Lament" "Malice" "Mayhem" "Misery" "Nemesis" "Night" "Nightmare" "Oblivion" "Pain" "Pandemonium" "Perdition" "Pestilence" "Plague" "Rage" "Ruin" "Sorrow" "Suffering" "Terror" "Torment" "Tyranny" "Vengeance" "Void" "War" "Woe" "Wrath"
-			}
+			"Abomination" "Accuser" "Affliction" "Agony" "Anguish" "Annihilator" "Apocalypse" "Armageddon" "Bane" "Blight" "Cataclysm" "Chaos" "Corruption" "Damnation" "Darkness" "Death" "Deceiver" "Defiler" "Desecrator" "Despair" "Despoiler" "Destroyer" "Devourer" "Doom" "Dread" "Eclipse" "End" "Enigma" "Eradicator" "Eternal" "Fallen" "Fear" "Fiend" "Fire" "Fury" "Gloom" "Grief" "Hate" "Havoc" "Hell" "Horror" "Inferno" "Judgement" "Lament" "Malice" "Mayhem" "Misery" "Nemesis" "Night" "Nightmare" "Oblivion" "Pain" "Pandemonium" "Perdition" "Pestilence" "Plague" "Rage" "Ruin" "Sorrow" "Suffering" "Terror" "Torment" "Tyranny" "Vengeance" "Void" "War" "Woe" "Wrath"
 		}
 	}
 
 	fleet_names = {
-		random_names = {
-			names = {
-				"1st Circle" "2nd Circle" "3rd Circle" "4th Circle" "5th Circle" "6th Circle" "7th Circle" "8th Circle" "9th Circle"
-			}
-		}
+		# Names for fleets
+		sequential_name = "%O% Circle"
 	}
 
 	planet_names = {
+		# Generic planet names
 		generic = {
 			names = {
 				"Acheron" "Asphodel" "Cocytus" "Dis" "Erebus" "Gehenna" "Hades" "Hel" "Inferno" "Lethe" "Malebolge" "Naraka" "Phlegethon" "Sheol" "Styx" "Tartarus" "Tophet"
@@ -26,21 +26,16 @@ NAME_LIST_demon_names = {
 	}
 
 	character_names = {
+		# Names for leaders
 		default = {
 			first_names_male = {
-				names = {
-					"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"
-				}
+				"Aamon" "Abaddon" "Abigor" "Adrammelech" "Agares" "Agiel" "Ahriman" "Aka Manah" "Akuma" "Alastor" "Asmodeus" "Astaroth" "Azazel" "Bael" "Balaam" "Beelzebub" "Belphegor" "Bifrons" "Caim" "Choronzon" "Dagon" "Eligos" "Flauros" "Forneus" "Furfur" "Gaap" "Glasya-Labolas" "Gusion" "Haborym" "Ipos" "Leviathan" "Lucifer" "Malphas" "Mammon" "Marbas" "Mephistopheles" "Moloch" "Murmur" "Orias" "Orobas" "Paimon" "Phenex" "Ronove" "Samael" "Shax" "Valac" "Vepar" "Vine" "Zagan"
 			}
 			first_names_female = {
-				names = {
-					"Lilith" "Abyzou" "Agrat bat Mahlat" "Hecate" "Ala" "Aka Manah"
-				}
+				"Lilith" "Abyzou" "Agrat bat Mahlat" "Hecate" "Ala" "Aka Manah"
 			}
 			second_names = {
-				names = {
-					"the Deceiver" "the Tormentor" "the Fallen" "of the Abyss" "the Damned"
-				}
+				"the Deceiver" "the Tormentor" "the Fallen" "of the Abyss" "the Damned"
 			}
 		}
 	}

@@ -1,53 +1,29 @@
+# Events for the Demon Species
+
 namespace = demon
 
-# On-action to fire events at game start
-on_actions = {
-	on_game_start_country = {
-		events = {
-			demon.2
-		}
-	}
-    on_pop_purged = {
-        events = {
-            demon.1
-        }
-    }
-}
-
-# Event to grant influence when a pop is purged
+# Event that applies the social outcast opinion modifier at game start
 country_event = {
 	id = demon.1
 	hide_window = yes
 	is_triggered_only = yes
 
-	immediate = {
-        # Check if the country has the civic, and if so, grant influence
-        if = {
-            limit = { has_civic = "civic_satanism" }
-            add_resource = { influence = 0.5 }
-        }
-	}
-}
-
-# Event to apply opinion malus at game start
-country_event = {
-	id = demon.2
-	hide_window = yes
-
 	trigger = {
-		is_ai = no # Only fire for player empires to avoid spamming opinion modifiers between AI
-		owner_main_species.has_trait = "trait_demon_social_outcast"
+		# This event should only fire for countries that have the demon trait
+		owner_main_species = {
+			has_trait = trait_demon_social_outcast
+		}
 	}
 
 	immediate = {
-		every_country = {
+		# Apply the opinion modifier to every other country
+		every_other_country = {
 			limit = {
-				is_country_type = default
-				NOT = { this = ROOT }
+				is_ai = yes # Only apply to AI empires to avoid player frustration
 			}
 			add_opinion_modifier = {
 				who = ROOT
-				modifier = "demon_species_opinion"
+				modifier = demon_species_opinion
 			}
 		}
 	}
