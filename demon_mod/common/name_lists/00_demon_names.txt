@@ -2,7 +2,7 @@ NAME_LIST_demon_names = {
 	ship_names = {
 		generic = {
 			names = {
-				"Abomination" "Accuser" "Affliction" "Agony" "Anguish" "Annihilator" "Apocalypse" "Armageddon" "Bane" "Blight" "Cataclysm" "Chaos" "Corruption" "Damnation" "Darkness" "Death" "Deceiver" "Defiler" "Desecrator" "Despair" "Despoiler" "Destroyer" "Devourer" "Doom" "Dread" "Eclipse" "End" "Enigma" "Eradicator" "Eternal" "Fallen" "Fear" "Fiend" "Fire" "Fury" "Gloom" "Grief" "Hate" "Havoc" "Hell" "Horror" "Inferno" "Judgement" "Lament" "Malice" "Mayhem" "Misery" "Nemesis" "Night" "Nightmare" "Oblivion" "Pain" "Pandemonium" "Perdition" "Pestilene" "Plague" "Rage" "Ruin" "Sorrow" "Suffering" "Terror" "Torment" "Tyranny" "Vengeance" "Void" "War" "Woe" "Wrath"
+				"Abomination" "Accuser" "Affliction" "Agony" "Anguish" "Annihilator" "Apocalypse" "Armageddon" "Bane" "Blight" "Cataclysm" "Chaos" "Corruption" "Damnation" "Darkness" "Death" "Deceiver" "Defiler" "Desecrator" "Despair" "Despoiler" "Destroyer" "Devourer" "Doom" "Dread" "Eclipse" "End" "Enigma" "Eradicator" "Eternal" "Fallen" "Fear" "Fiend" "Fire" "Fury" "Gloom" "Grief" "Hate" "Havoc" "Hell" "Horror" "Inferno" "Judgement" "Lament" "Malice" "Mayhem" "Misery" "Nemesis" "Night" "Nightmare" "Oblivion" "Pain" "Pandemonium" "Perdition" "Pestilence" "Plague" "Rage" "Ruin" "Sorrow" "Suffering" "Terror" "Torment" "Tyranny" "Vengeance" "Void" "War" "Woe" "Wrath"
 			}
 		}
 	}
