@@ -1,9 +1,0 @@
-﻿l_german:
- auth_satanic:0 "Satanisch"
- auth_satanic_desc:0 "Diese Regierung wird von einer einzigen Person regiert, die auf Lebenszeit absolute Macht besitzt."
- civic_satanism:0 "Satanismus"
- civic_satanism_desc:0 "Diese Gesellschaft ist nach den Prinzipien von Macht und Eigennutz organisiert."
- civic_satanism_effects:0 "§E$civic_satanism$§! Bürgerkunde-Effekte:\n£influence£ Einfluss durch das Säubern von Pops: §G+0.5§!\n£worker£ Arbeiter-Pop-Ressourcen-Output: §G+10%§!"
- gov_satanism:0 "Satanisches Reich"
- gov_satanism_desc:0 "Eine Regierung, die von einem Hoheprieter oder einer Hohepriesterin auf Lebenszeit regiert wird."
- demon_species_opinion:0 "Dämonische Spezies"

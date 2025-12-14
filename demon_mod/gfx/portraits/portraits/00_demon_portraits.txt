@@ -1,5 +1,5 @@
-demon_portraits = {
-	species_class = "DEMON"
+portrait_group = {
+	id = "demon_portraits"
 
 	portraits = {
 		"human_male_01"

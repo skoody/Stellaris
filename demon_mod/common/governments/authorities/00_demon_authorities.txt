@@ -1,15 +1,39 @@
-auth_satanic = {
-	icon = "GFX_auth_satanic"
+authorities = {
+	auth_satanic = {
+		succession = imperial
+		ruler_term = -1
 
-	ruler_title = "High Priest"
-	ruler_title_female = "High Priestess"
+		ruler_title = "High Priest"
+		ruler_title_female = "High Priestess"
 
-	ruler_term_years = -1 # Ruler serves for life
+		leader_classes = {
+			ruler = "ruler"
+			leader = "leader"
+			admiral = "admiral"
+			general = "general"
+			scientist = "scientist"
+			governor = "governor"
+		}
 
-	ruler_job = "ruler"
+		potential = {
+			owner = {
+				OR = {
+					has_ethic = "ethic_satan"
+					has_ethic = "ethic_fanatic_satan"
+				}
+			}
+		}
 
-	potential = {
-		is_gestalt = no
-		has_ethic = ethic_satan
+		ai_weights = {
+			weight = 10
+			modifier = {
+				factor = 1.5
+				has_ethic = "ethic_satan"
+			}
+			modifier = {
+				factor = 2.0
+				has_ethic = "ethic_fanatic_satan"
+			}
+		}
 	}
 }

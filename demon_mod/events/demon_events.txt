@@ -20,19 +20,21 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 
-	trigger = {
-		main_species = { has_trait = "trait_demon_social_outcast" }
-	}
-
 	immediate = {
-		every_country = {
+		if = {
 			limit = {
-				is_country_type = default
-				NOT = { this = ROOT }
+				is_ai = no
+				founder_species = { has_trait = "trait_demon_social_outcast" }
 			}
-			add_opinion_modifier = {
-				who = ROOT
-				modifier = "demon_species_opinion"
+			every_country = {
+				limit = {
+					is_country_type = default
+					NOT = { this = ROOT }
+				}
+				add_opinion_modifier = {
+					who = ROOT
+					modifier = "demon_species_opinion"
+				}
 			}
 		}
 	}

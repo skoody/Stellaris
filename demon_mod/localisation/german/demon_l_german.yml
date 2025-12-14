@@ -1,0 +1,24 @@
+﻿l_german:
+ # Ethics
+ ethic_satan: "Satan"
+ ethic_satan_desc: "Diese Gesellschaft glaubt, dass Macht und Eigennutz die ultimativen Tugenden sind, und setzt auf Ehrgeiz und Herrschaft, um ihre Ziele zu erreichen."
+ ethic_fanatic_satan: "Fanatischer Satan"
+ ethic_fanatic_satan_desc: "Für diese Gesellschaft ist das Streben nach absoluter Macht die einzige Wahrheit. Alle Handlungen sind im Namen von Stärke und persönlichem Gewinn gerechtfertigt, und die Schwachen sind dazu bestimmt, den Starken zu dienen."
+ satan_category: "Prinzipien der Macht"
+ mod_pc_molten_habitability: "Bewohnbarkeit für geschmolzene Welten"
+ demon_species_opinion: "Dämonische Spezies"
+ desc_ethic_satan: "§E$ethic_satan$§! Ethik-Effekte:\n£influence£ Einfluss: §G+15%§!\n£amenities£ Annehmlichkeiten-Verbrauch durch Pops: §R+10%§!\n£damage£ Schiffswaffenschaden: §G+5%§!\n£shield_penetration£ Schilddurchdringung: §G+10%§!\n£stability£ Planetenstabilität: §G+100§!."
+ desc_ethic_fanatic_satan: "§E$ethic_fanatic_satan$§! Ethik-Effekte:\n£influence£ Einfluss: §G+25%§!\n£amenities£ Annehmlichkeiten-Verbrauch durch Pops: §R+15%§!\n£damage£ Schiffswaffenschaden: §G+10%§!\n£shield_penetration£ Schilddurchdringung: §G+20%§!\n£stability£ Planetenstabilität: §G+100§!."
+
+ # Governments
+ auth_satanic: "Satanisch"
+ auth_satanic_desc: "Diese Regierung wird von einer einzigen Person regiert, die auf Lebenszeit absolute Macht besitzt."
+ civic_satanism: "Satanismus"
+ civic_satanism_desc: "Diese Gesellschaft ist nach den Prinzipien von Macht und Eigennutz organisiert."
+ civic_satanism_effects: "§E$civic_satanism$§! Bürgerkunde-Effekte:\n£influence£ Einfluss durch das Säubern von Pops: §G+0.5§!\n£worker£ Arbeiter-Pop-Ressourcen-Output: §G+10%§!"
+ gov_satanism: "Satanisches Reich"
+ gov_satanism_desc: "Eine Regierung, die von einem Hohepriester oder einer Hohepriesterin auf Lebenszeit regiert wird."
+
+ # Origin
+ origin_demon: "Dämonischer Ursprung"
+ origin_demon_desc: "Diese Spezies ist aus den feurigen Tiefen einer vulkanischen Welt aufgestiegen und ist von Natur aus an extreme Hitze und höllische Landschaften angepasst."

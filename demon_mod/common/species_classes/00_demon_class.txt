@@ -1,6 +1,6 @@
 DEMON = {
 	portraits = {
-		demon_portraits
+		"demon_portraits"
 	}
-	graphical_culture = "machine_01"
+	graphical_culture = "mammalian_01"
 }

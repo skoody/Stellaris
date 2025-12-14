@@ -1,11 +1,13 @@
-origin_demon = {
-	icon = "gfx/interface/icons/origins/origin_shattered_ring.dds" # Placeholder Icon
+origins = {
+	origin_demon = {
+		icon = "gfx/interface/icons/origins/origin_shattered_ring.dds" # Placeholder Icon
 
-	potential = {
-		is_gestalt = no
-	}
+		potential = {
+			is_gestalt = no
+		}
 
-	startup_effect = {
-		set_planet_class = "pc_volcanic"
+		startup_effect = {
+			set_planet_class = "pc_volcanic"
+		}
 	}
 }

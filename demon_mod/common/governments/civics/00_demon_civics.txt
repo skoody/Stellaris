@@ -1,11 +1,13 @@
-civic_satanism = {
-	icon = "GFX_civic_satanism"
+civics = {
+	civic_satanism = {
+		icon = "gfx/interface/icons/civics/civic_fanatic_purifiers.dds"
 
-	potential = {
-		has_authority = auth_satanic
-	}
+		potential = {
+			owner = { has_authority = "auth_satanic" }
+		}
 
-	modifier = {
-		planet_jobs_worker_produces_mult = 0.10
+		modifier = {
+			planet_jobs_worker_produces_mult = 0.10
+		}
 	}
 }
